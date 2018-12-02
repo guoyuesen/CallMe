@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="45dip"
+    android:layout_height="77dip"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="25dip"
+    >
+    <TextView
+        android:id="@+id/remind_item_week"
+        android:layout_width="45dip"
+        android:layout_height="45dip"
+        android:background="@drawable/home_item_img"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffffff"
+        android:textSize="12sp"
+        />
+    <View
+        android:layout_width="9dip"
+        android:layout_height="9dip"
+        android:background="@drawable/redutil"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        />
+</RelativeLayout>
+    <TextView
+        android:id="@+id/remind_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:text=""
+        android:textColor="#ff8f8f8f"
+        android:textSize="12sp"
+        android:layout_marginLeft="86dip"
+        android:layout_marginTop="19dip"
+        />
+    <TextView
+        android:id="@+id/remind_item_body"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:text=""
+        android:textColor="#ff7a7a7a"
+        android:textSize="12sp"
+        android:layout_marginLeft="86dip"
+        android:layout_marginTop="42dip"
+        android:maxLines="1"
+        />
+</RelativeLayout>

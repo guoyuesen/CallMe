@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView
+    android:id="@+id/item_staff_t1"
+    android:layout_width="45dip"
+    android:layout_height="45dip"
+    android:layout_margin="18dip"
+    android:text="陈"
+    android:textColor="#ffffffff"
+    android:textSize="18sp"
+    android:background="@drawable/staff_item"
+    android:gravity="center"
+    />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:orientation="vertical"
+        android:layout_marginTop="18dip"
+        android:layout_marginLeft="81dip"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:id="@+id/item_staff_t2"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:text="陈晓"
+            android:textColor="#ff333333"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/item_staff_t3"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:text="13598909189"
+            android:textColor="#ff7a7a7a"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="6dip"
+        android:layout_height="12dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="34dip"
+        android:src="@mipmap/next"
+        android:layout_marginRight="18dip"
+        />
+</RelativeLayout>
